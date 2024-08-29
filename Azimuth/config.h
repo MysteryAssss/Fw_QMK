@@ -23,7 +23,5 @@
 #define SPI_MATRIX_CHIP_SELECT_PIN B6
 #define SPI_MATRIX_DIVISOR 15
 #define SHIFTREG_MATRIX_LATCH B7
-
 #define USB_MUX_SEL_PIN B14
-
-//#define DEBUG_MATRIX_SCAN_RATE enable this when you use console 
+#define DEBUG_MATRIX_SCAN_RATE
