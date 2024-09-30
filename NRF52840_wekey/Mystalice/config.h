@@ -14,10 +14,10 @@
 //#define NO_ACTION_ONESHOT
 
 /* BLE CONFIG */
-//#define BLE_CONN_INTERVAL_MIN 7.5
-//#define BLE_CONN_INTERVAL_MAX 30
-//#define BLE_SLAVE_LATENCY 15
-//#define BLE_CONN_SUP_TIMEOUT 1152
+#define BLE_CONN_INTERVAL_MIN 7.5
+#define BLE_CONN_INTERVAL_MAX 30
+#define BLE_SLAVE_LATENCY 1
+#define BLE_CONN_SUP_TIMEOUT 1152
 
 /* WEKEY Config PIN */
 
@@ -37,12 +37,12 @@
 //#define LED_CTRL_PIN NO_PIN       // CTRL EXT VCC
 //#define LED_CTRL_PIN_ON 0         // 0 = Low; 1 = High
 
-#ifdef RGB_MATRIX_ENABLE
+//#ifdef RGB_MATRIX_ENABLE
 
 //#    define WS2812_DI_PIN F17
 //#    define DRIVER_COUNT 1
 //#    define DRIVER_ADDR_1 0b1110100
 //#    define RGB_MATRIX_LED_COUNT 6
 
-#endif
+//#endif
 
